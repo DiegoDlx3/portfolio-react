@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(147deg, #2b2a2a 0%, #000000 74%);
+    overflow-x: hidden;
+    font-family: 'Montserrat', "open-sans";
+}
+.btn {
+    text-decoration: none;
+    color: #fff;
+  }
+  .button{
+    text-decoration: none;
+    padding: 10px 30px;
+    left: 20px;
+    font-size: 1rem;
+    position: absolute;
+    top: 20px;
+    justify-content: center;
+    text-decoration: none;
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+    
+  }
+.gallery-container{
+    width: 80%;
+    margin:100px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: repeat(2,300px);
+}
+
+.gallery-container .gallery-card{overflow: hidden};
+
+.gallery-container .gallery-card a{
+    width: 100%;
+    height:100%;
+}
+.gallery-container .gallery-card a > img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    transition: 0.5s;
+}
+.gallery-container .gallery-card a > img:hover{
+    transform: scale(1.5) rotate(30deg);
+}
