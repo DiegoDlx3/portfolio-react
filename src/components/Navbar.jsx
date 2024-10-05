@@ -1,7 +1,7 @@
 import logo from "../assets/kevinRushLogo.png";
 import { FaBehance }  from "react-icons/fa";
 import { FaGithub }  from "react-icons/fa";
-import { FaInstagram }  from "react-icons/fa";
+import { FaLinkedin }  from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a href="https://www.behance.net/marcosdiiego" target="blank"><FaBehance /></a>
         <a href="https://github.com/marcosvf132" target="blank"><FaGithub /></a>
-        <a href="https://www.instagram.com/diegodlx3/" target="blank"><FaInstagram /></a>
+        <a href="https://www.linkedin.com/in/marcos-diego-45028317a/" target="blank"><FaLinkedin /></a>
         </div>
 
     </nav>

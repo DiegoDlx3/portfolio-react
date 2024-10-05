@@ -6,9 +6,6 @@ import project4 from "../assets/projects/project-4.jpg";
 
 
 
-
-
-
 export const HERO_CONTENT = `Desenvolvedor Fullstack especialista em back-end com sólida compreensão dos princípios do design de software, estruturas de dados, algoritmos e sistemas distribuído. Com mais de 7 anos de experiência, venho ajudando empresas e pessoas a existirem no mundo digital criando toda sua identidade visual, do zero, passando pela papelaria na criação de ideias, desenvolvendo logotipo, sites (incluindo SEO) e aplicativos. Sempre defendendo e aplicando metodologias ágeis para impulsionar o crescimento dos negócios para oferecerem experiências excecionais ao usuário.`;
 
 export const ABOUT_TEXT = `Através de uma profunda curiosidade sobre como as coisas funcionam e evoluiu para uma carreira na qual me esforço, eu prospero em ambientes colaborativos em uma ampla gama de plataformas, como Scrum e Kanban, para construção de sistemas e promovendo o equilíbrio entre as partes interessadas desde a área de negócios até a engenharia, buscando sempre entregar soluções de excelência que atendam as demandas e evitem o retrabalho. Trabalhei com diversas tecnologias e linguagens como: TypeScript, Javascript, .net, c#, Java, Jest, Node.js, Nest.js, Redis, React.js, Angular, Docker, MySql, Postgres, MongoDB, AWS, Github Actions, CI/CD, GitLab.`;
@@ -80,7 +77,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Localização: Bauru - SP, Brasil ",
+  address: "Localização: Bauru - SP , Brasil ",
   phoneNo: "(14) 99120 - 3571",
   email: "diiegoteodoro@gmail.com",
 };

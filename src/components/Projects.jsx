@@ -46,7 +46,7 @@ const Projects = () => {
               <a href="/projetcs/projects.html" className="mb-4 text-neural-900"><h6 className="my-5  text-left text-2xl text-red-900">{project.link1}</h6></a>
               <a href="/projetcs/projects.html" className="mb-4 text-neural-400"><h6 className="my-5  text-left text-2xl text-red-900">{project.link2}</h6></a>
               <a href="/templates/templates.html" className="mb-4 text-neural-400"><h6 className="my-5  text-left text-2xl text-red-900">{project.link3}</h6></a>
-              <a href="" className="mb-4 text-neural-400"><h6 className="my-5  text-left text-2xl text-red-900">{project.link4}</h6></a>
+              <a href="/social_media/social_media.html" className="mb-4 text-neural-400"><h6 className="my-5  text-left text-2xl text-red-900">{project.link4}</h6></a>
               </div>
               </motion.div>
               
